@@ -32,11 +32,13 @@ WebUI.click(findTestObject('VendorObjects/div_Yes_one'))
 WebUI.delay(10)
 WebUI.click(findTestObject('Object Repository/VendorObjects/div_Yes_two'))
 WebUI.delay(10)
-//WebUI.click(findTestObject('Object Repository/VendorObjects/div_Yes_three'))
+WebUI.click(findTestObject('Object Repository/VendorObjects/div_Yes_three'))
 WebUI.delay(10)
-//WebUI.click(findTestObject('Object Repository/VendorObjects/div_Yes_four'))
+WebUI.click(findTestObject('Object Repository/VendorObjects/div_Yes_four'))
+WebUI.click(findTestObject('Object Repository/VendorObjects/button_Continue'))
+WebUI.verify
 
-
+WebUI.closeBrowser()
 
 
 
