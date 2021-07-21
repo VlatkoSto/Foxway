@@ -24,4 +24,20 @@ WebUI.navigateToUrl('https://istyle--bg--1.replace.dev/login')
 WebUI.setText(findTestObject('Object Repository/Page_Logi sisse/input_Kasutajanimi_Username'), 'helpdesk@replacegroup.com')
 WebUI.setText(findTestObject('Object Repository/VendorObjects/input_Password_Password'), 'Pirn6un112')
 WebUI.click(findTestObject('Object Repository/VendorObjects/button_Login'))
+WebUI.click(findTestObject('Object Repository/h2_Retail Tool'))
+WebUI.setText(findTestObject('Object Repository/input'), 'Samsung galaxy s20 128gb')
+WebUI.click(findTestObject('Object Repository/VendorObjects/span_Samsung Galaxy S20 128GB G980F'))
+WebUI.delay(10)
+WebUI.click(findTestObject('VendorObjects/div_Yes_one'))
+WebUI.delay(10)
+WebUI.click(findTestObject('Object Repository/VendorObjects/div_Yes_two'))
+WebUI.delay(10)
+//WebUI.click(findTestObject('Object Repository/VendorObjects/div_Yes_three'))
+WebUI.delay(10)
+//WebUI.click(findTestObject('Object Repository/VendorObjects/div_Yes_four'))
+
+
+
+
+
 
