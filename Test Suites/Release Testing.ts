@@ -17,4 +17,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/DisableUserGroupVendor</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>68b617c1-c401-4de9-80b2-3ad2963ea0a2</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Trade-in registration 3rd step</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
