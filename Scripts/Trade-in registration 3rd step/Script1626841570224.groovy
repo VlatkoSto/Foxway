@@ -19,3 +19,9 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
+WebUI.navigateToUrl('https://istyle--bg--1.replace.dev/login')
+
+WebUI.setText(findTestObject('Object Repository/VendorObjects/input_UserName_UserName'), 'helpdesk@replacegroup.com')
+WebUI.setText(findTestObject('Object Repository/VendorObjects/input_Password_Password'), 'Pirn6un112')
+WebUI.click(findTestObject('Object Repository/VendorObjects/button_Login'))
+
